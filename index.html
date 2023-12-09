@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,600;0,700;0,800;0,900;1,300;1,400;1,500&family=Playfair+Display:wght@400;500;600&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Slabo+27px&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <!-- This Is An E-commerce Web You Can Do It -->
+    <!-- Adam Bach T9dar tghleb elih khssek t9assem chghol WALLAHO LMOSTA3an -->
+
+    <!-- Start Nav Bar -->
+    <div class="nav-bar">
+        <div class="navigation-container">
+            <div class="nav-left">
+                <a href="index.html"><img src="assets/images/Logo.svg"></a>
+            </div>
+            <div class="nav-rigth">
+                <div class="links">
+                    <div id="toggle-menu" class="menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <ul id="ul">
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="order.html">Order</a></li>
+                        <li><a href="company.html">Company</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <button id="openClose" class="card-button special">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span id="quantity" class="cart-quantity">0</span>
+                </button>
+            </div>
+        </div>
+        <div id="allOrders" class="all-order empty">
+            <div class="header">
+                <h4>Your Order</h4>
+                <i id="close" class="fa-solid fa-xmark fa-lg"></i>
+            </div>
+            <div id="orders" class="orders">
+            </div>
+            <div class="footer">
+                <div class="total">
+                    <span>Subtotal</span>
+                    <span>$ <span id="total">0.00</span> USD</span>
+                </div>
+                <button class="checkout">Continue to Checkout</button>
+            </div>
+            <div class="empty">
+                <span>We couldn't find any items in your cart.</span>
+                <div>
+                    <a href="order.html">Start An Order</a>
+                    <img src="assets/images/Drawn Arrow.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Nav Bar -->
+
+    <!-- Start The Header -->
+    <header>
+        <div class="container-flex">
+            <div class="hero-content">
+                <h1 class="hero-h1">
+                    Beautiful food & takeaway, <span>delivered</span> to your door.
+                </h1>
+                <p class="hero-p">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard
+                    dummy text ever since the 1500.
+                </p>
+                <a href="order.html" class="special">Place an Order</a>
+                <div class="review-wrap">
+                    <img src="assets/images/trustpilot-logo.svg">
+                    <div class="review-text">
+                        <span class="brana">4.8 out of 5</span>
+                        based on 2000+ reviews
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image-wrap">
+                <img src="assets/images/Hero Image.png">
+            </div>
+        </div>
+    </header>
+    <!-- End The Header -->
+    <!-- Start Content section -->
+
+    <div class="content-section">
+        <div class="container-all">
+            <div class="content-grid">
+                <div class="content-block">
+                    <h2>The home offresh products</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500.</p>
+                    <button>Learn about us</button>
+                </div>
+                <div class="image-block">
+                    <img src="assets/images/Group.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Content section -->
+    <!-- Start works -->
+    <div class="works-section">
+        <div class="container-works">
+            <div class="title-wrap-center">
+                <h2>How it works.</h2>
+            </div>
+            <div class="layout-grid">
+                <div class="content-card">
+                    <div class="step-image">
+                        <img src="assets/images/Step 01.png">
+                    </div>
+                    <div class="info">
+                        <h5>Adapt your menu items</h5>
+                        <p>Easily adapt your menu using the webflow CMS and allow customers to browse your items.</p>
+                    </div>
+                </div>
+                <div class="line-column">
+                    <div class="line"></div>
+                </div>
+                <div class="content-card">
+                    <div class="step-image">
+                        <img src="assets/images/Step 02.png">
+                    </div>
+                    <div class="info">
+                        <h5>Accept online orders & takeout</h5>
+                        <p>Let your customers order and pay via the powerful ecommerce system, or simple let them call
+                            your store.</p>
+                    </div>
+                </div>
+                <div class="line-column">
+                    <div class="line"></div>
+                </div>
+                <div class="content-card">
+                    <div class="step-image">
+                        <img src="assets/images/Step 03.png">
+                    </div>
+                    <div class="info">
+                        <h5>Manage delivery or takeout</h5>
+                        <p>Manage your own logistics and take orders simply through the ecommerce system.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End works -->
+    <!-- Start menu section -->
+    <div class="menu-section">
+        <div class="container-menu">
+            <div class="title-wrap-center">
+                <h2>Browse our menu</h2>
+                <p>Use our menu to place an order online, or <a href="#">phone</a> our store to place a pickup order.
+                    Fast and fresh food.</p>
+            </div>
+            <div class="tabs">
+                <div class="tab-menu-round">
+                    <button class="tab-link active">Burgers</button>
+                    <button class="tab-link">Sides</button>
+                    <button class="tab-link">Drinks</button>
+                </div>
+                <div class="tabs-content">
+                    <div class="tab active">
+                        <div class="cards six">
+                            <div class="food-card">
+                                <a href="burgerdream.html" class="food-image" target="_blank">
+                                    <img src="assets/images/Burger 01.png">
+                                </a>
+                                <div class="food-info">
+                                    <a href="burgerdream.html" class="food-title-wrap" target="_blank">
+                                        <h6>Burger Dreams</h6>
+                                        <div class="price">$ 9.20 USD</div>
+                                    </a>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <form class="default-state">
+                                        <input id="number-of-order" type="number" value="1" min="0">
+                                        <input id="addItems" type="submit" value="Add To Cart">
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="food-card">
+                                <a href="burgerwaldo.html" class="food-image" target="_blank">
+                                    <img src="assets/images/Burger 02.png">
+                                </a>
+                                <div class="food-info">
+                                    <a href="burgerwaldo.html" class="food-title-wrap" target="_blank">
+                                        <h6>Burger Waldo</h6>
+                                        <div class="price">$ 10.00 USD</div>
+                                    </a>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <form class="default-state">
+                                        <input id="number-of-order" type="number" value="1" min="0">
+                                        <input id="addItems" type="submit" value="Add To Cart">
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="food-card">
+                                <a href="burgercali.html" class="food-image" target="_blank">
+                                    <img src="assets/images/Burger 03.png">
+                                </a>
+                                <div class="food-info">
+                                    <a href="burgercali.html" class="food-title-wrap" target="_blank">
+                                        <h6>Burger Cali</h6>
+                                        <div class="price">$ 8.00 USD</div>
+                                    </a>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <form class="default-state">
+                                        <input id="number-of-order" type="number" value="1" min="0">
+                                        <input id="addItems" type="submit" value="Add To Cart">
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="food-card">
+                                <a href="burgerBaconBuddy.html" class="food-image" target="_blank">
+                                    <img src="assets/images/Burger 04.png">
+                                </a>
+                                <div class="food-info">
+                                    <a href="burgerBaconBuddy.html" class="food-title-wrap" target="_blank">
+                                        <h6>Burger Bacon Buddy</h6>
+                                        <div class="price">$ 9.99 USD</div>
+                                    </a>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <form class="default-state">
+                                        <input id="number-of-order" type="number" value="1" min="0">
+                                        <input id="addItems" type="submit" value="Add To Cart">
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="food-card">
+                                <a href="burgerSpicy.html" class="food-image" target="_blank">
+                                    <img src="assets/images/Burger 05.png">
+                                </a>
+                                <div class="food-info">
+                                    <a href="burgerSpicy.html" class="food-title-wrap" target="_blank">
+                                        <h6>Burger Spicy</h6>
+                                        <div class="price">$ 9.20 USD</div>
+                                    </a>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <form class="default-state">
+                                        <input id="number-of-order" type="number" value="1" min="0">
+                                        <input id="addItems" type="submit" value="Add To Cart">
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="food-card">
+                                <a href="burgerClassic.html" class="food-image" target="_blank">
+                                    <img src="assets/images/Burger 06.png">
+                                </a>
+                                <div class="food-info">
+                                    <a href="burgerClassic.html" class="food-title-wrap" target="_blank">
+                                        <h6>Burger Classic</h6>
+                                        <div class="price">$ 8.00 USD</div>
+                                    </a>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <form class="default-state">
+                                        <input id="number-of-order" type="number" value="1" min="0">
+                                        <input id="addItems" type="submit" value="Add To Cart">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="order.html" class="fullMenu">See Full Menu</a>
+                    </div>
+                    <div class="tab">
+                        <div class="cards foor">
+                            <div class="food-card">
+                                <a href="saladeCeaser.html" class="food-image" target="_blank">
+                                    <img src="assets/images/Side 06.png">
+                                </a>
+                                <div class="food-info">
+                                    <a href="saladeCeaser.html" class="food-title-wrap" target="_blank">
+                                        <h6>Salade Ceaser</h6>
+                                        <div class="price">$ 6.00 USD</div>
+                                    </a>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <form class="default-state">
+                                        <input id="number-of-order" type="number" value="1" min="0">
+                                        <input id="addItems" type="submit" value="Add To Cart">
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="food-card">
+                                <a href="beansSlowCooked.html" class="food-image" target="_blank">
+                                    <img src="assets/images/side 05.png">
+                                </a>
+                                <div class="food-info">
+                                    <a href="beansSlowCooked.html" class="food-title-wrap" target="_blank">
+                                        <h6>Beans Slow Cooked</h6>
+                                        <div class="price">$ 4.00 USD</div>
+                                    </a>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <form class="default-state">
+                                        <input id="number-of-order" type="number" value="1" min="0">
+                                        <input id="addItems" type="submit" value="Add To Cart">
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="food-card">
+                                <a href="freescheese.html" class="food-image" target="_blank">
+                                    <img src="assets/images/Side 03.png">
+                                </a>
+                                <div class="food-info">
+                                    <a href="freescheese.html" class="food-title-wrap" target="_blank">
+                                        <h6>Frees Cheese</h6>
+                                        <div class="price">$ 8.00 USD</div>
+                                    </a>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <form class="default-state">
+                                        <input id="number-of-order" type="number" value="1" min="0">
+                                        <input id="addItems" type="submit" value="Add To Cart">
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="food-card">
+                                <a href="friesRustic.html" class="food-image" target="_blank">
+                                    <img src="assets/images/Side 02.png">
+                                </a>
+                                <div class="food-info">
+                                    <a href="friesRustic.html" class="food-title-wrap" target="_blank">
+                                        <h6>Fries Rustic</h6>
+                                        <div class="price">$ 9.99 USD</div>
+                                    </a>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <form class="default-state">
+                                        <input id="number-of-order" type="number" value="1" min="0">
+                                        <input id="addItems" type="submit" value="Add To Cart">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="order.html" class="fullMenu">See Full Menu</a>
+                    </div>
+                    <div class="tab">
+                        <div class="cards foor">
+                            <div class="food-card">
+                                <a href="drinkFig&Lime.html" class="food-image" target="_blank">
+                                    <img src="assets/images/Drink 1.png">
+                                </a>
+                                <div class="food-info">
+                                    <a href="drinkFig&Lime.html" class="food-title-wrap" target="_blank">
+                                        <h6>Drink Fig & lime</h6>
+                                        <div class="price">$ 4.00 USD</div>
+                                    </a>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <form class="default-state">
+                                        <input id="number-of-order" type="number" value="1" min="0">
+                                        <input id="addItems" type="submit" value="Add To Cart">
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="food-card">
+                                <a href="drinkLiquor.html" class="food-image" target="_blank">
+                                    <img src="assets/images/Drink 2.png">
+                                </a>
+                                <div class="food-info">
+                                    <a href="drinkLiquor.html" class="food-title-wrap" target="_blank">
+                                        <h6>Drink Liquor</h6>
+                                        <div class="price">$ 7.00 USD</div>
+                                    </a>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <form class="default-state">
+                                        <input id="number-of-order" type="number" value="1" min="0">
+                                        <input id="addItems" type="submit" value="Add To Cart">
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="food-card">
+                                <a href="drinkLime.html" class="food-image" target="_blank">
+                                    <img src="assets/images/Drink 4.png">
+                                </a>
+                                <div class="food-info">
+                                    <a href="drinkLime.html" class="food-title-wrap" target="_blank">
+                                        <h6>Drink Lime</h6>
+                                        <div class="price">$ 4.00 USD</div>
+                                    </a>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <form class="default-state">
+                                        <input id="number-of-order" type="number" value="1" min="0">
+                                        <input id="addItems" type="submit" value="Add To Cart">
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="food-card">
+                                <a href="drinkCola.html" class="food-image" target="_blank">
+                                    <img src="assets/images/Drink 3.png">
+                                </a>
+                                <div class="food-info">
+                                    <a href="drinkCola.html" class="food-title-wrap" target="_blank">
+                                        <h6>Drink Cola</h6>
+                                        <div class="price">$ 3.00 USD</div>
+                                    </a>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <form class="default-state">
+                                        <input id="number-of-order" type="number" value="1" min="0">
+                                        <input id="addItems" type="submit" value="Add To Cart">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="order.html" class="fullMenu">See Full Menu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End menu section -->
+    <!-- Start Order Online Section -->
+    <div class="orderOnline-section">
+        <div class="container-orderOnline">
+            <div class="content-grid">
+                <div class="image">
+                    <img src="assets/images/Phones.png">
+                    <img src="assets/images/Content Pattern.svg">
+                </div>
+                <div class="info">
+                    <h2>Order online with our simple checkout.</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500.</p>
+                    <a href="faq.html">See our FAQ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Order Online Section -->
+    <!-- Start call store  -->
+    <div class="section-bg">
+        <div class="container-call">
+            <div class="content-grid">
+                <div class="info">
+                    <h1>Call our store and takeaway when it suits you best.</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500.
+                    </p>
+                    <button>Ph. +61 233 2333</button>
+                </div>
+                <div class="image">
+                    <img src="assets/images/Food Takeaway.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Start call store  -->
+    <div class="cta-section">
+        <div class="layout-grid">
+            <div class="cta-image">
+
+            </div>
+            <div class="cta-content">
+                <h1><span>Support</span> good food
+                    and local business.</h1>
+                <a href="order.html">Order Now</a>
+            </div>
+        </div>
+    </div>
+    <!-- End call store  -->
+
+
+    <!-- Start Footer -->
+    <footer>
+        <div class="container-footer">
+            <div class="layout-grid">
+                <div class="footer-column">
+                    <img src="assets/images/Logo.svg">
+                    <p>Takeaway & Delivery templatefor small - medium businesses. </p>
+                </div>
+                <div class="footer-column">
+                    <p class="title">company</p>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="order.html">order</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="company.html">faq</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <p class="title">template</p>
+                    <ul>
+                        <li><a href="index.html">Style Guide</a></li>
+                        <li><a href="order.html">Changelog</a></li>
+                        <li><a href="faq.html">License</a></li>
+                        <li><a href="company.html">Webflow University</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <p class="title">flowbase</p>
+                    <ul>
+                        <li><a href="index.html">more cloneable</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-legal">
+                <div class="source">
+                    <p>Built by Jeniah Adam</p>
+                </div>
+                <div class="social-media">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <script src="js/main.js"></script>
+    <script src="js/newPage.js"></script>
+    <script src="js/addToCart.js"></script>
+</body>
+
+</html>

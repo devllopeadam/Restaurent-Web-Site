@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,600;0,700;0,800;0,900;1,300;1,400;1,500&family=Playfair+Display:wght@400;500;600&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Slabo+27px&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Drink Liquor</title>
+</head>
+
+<body>
+  <!-- This Is An E-commerce Web You Can Do It -->
+  <!-- Adam Bach T9dar tghleb elih khssek t9assem chghol WALLAHO LMOSTA3an -->
+  <!-- Start Nav Bar -->
+  <div class="nav-bar order">
+    <div class="navigation-container">
+      <div class="nav-left">
+        <a href="index.html"><img src="assets/images/Logo.svg"></a>
+      </div>
+      <div class="nav-rigth">
+        <div class="links">
+          <div id="toggle-menu" class="menu">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <ul id="ul">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="company.html">Company</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <button id="openClose" class="card-button special">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span id="quantity" class="cart-quantity">0</span>
+        </button>
+      </div>
+    </div>
+    <div id="allOrders" class="all-order empty">
+      <div class="header">
+        <h4>Your Order</h4>
+        <i id="close" class="fa-solid fa-xmark fa-lg"></i>
+      </div>
+      <div id="orders" class="orders">
+      </div>
+      <div class="footer">
+        <div class="total">
+          <span>Subtotal</span>
+          <span>$ <span id="total">0.00</span> USD</span>
+        </div>
+        <button class="checkout">Continue to Checkout</button>
+      </div>
+      <div class="empty">
+        <span>We couldn't find any items in your cart.</span>
+        <div>
+          <a href="order.html">Start An Order</a>
+          <img src="assets/images/Drawn Arrow.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Nav Bar -->
+
+  <!-- Start Header Section-->
+
+  <div class="header-section product">
+    <div class="container-flex">
+      <img src="assets/images/YumYum.png">
+      <div class="title-wrap-center">
+        <h1 id="productName">Drink Liquor</h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- End Header Section-->
+
+  <!-- Start Description -->
+
+  <div class="content-section product">
+    <div class="container-all">
+      <div class="product-grid">
+        <div class="tab">
+          <div class="cards">
+            <div class="food-card product">
+              <div href="#" class="food-image">
+                <img id="img" class="img" src="assets/images/Drink 2.png">
+              </div>
+              <div class="food-info">
+                <h6 id="name" class="name">Drink Liquor</h6>
+                <div id="price" class="price">7.00</div>
+                <div class="line"></div>
+                <p>Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an
+                  pericula euripidis, hinc partem ei est.
+                  Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus
+                  id, error epicurei mea et. Mea facilisis urbanitas. Vis ei rationibus definiebas, eu qui purto zril
+                  laoreet. Ex error omnium interpretaris pro, alia illum ea vim.</p>
+                <form class="default-state">
+                  <input id="number-of-order" type="number" value="1" min="0">
+                  <input id="addItems" type="submit" value="Add To Cart">
+                </form>
+                <div class="line"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Description -->
+
+
+  <div class="menu-section product">
+    <div class="container-menu">
+      <div class="tabs">
+        <div class="tab-menu-round">
+          <button class="tab-link active">Description</button>
+          <button class="tab-link">Additional Information</button>
+          <button class="tab-link">Reviews (0)</button>
+        </div>
+        <div class="tabs-content">
+          <div class="tab active">
+            <div class="cards">
+              <p>Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula
+                euripidis, hinc partem ei est.
+                Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id,
+                <br>
+                error epicurei mea et. Mea facilisis urbanitas. Vis ei rationibus definiebas, eu qui purto zril laoreet.
+                Ex error omnium interpretaris pro, alia illum ea vim.</p>
+            </div>
+          </div>
+          <div class="tab">
+            <div class="cards">
+              <p>
+                Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula
+                euripidis, hinc partem ei est.
+                Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id,
+                <br>
+                error epicurei mea et. Mea facilisis urbanitas. Vis ei rationibus definiebas, eu qui purto zril laoreet.
+                Ex error omnium interpretaris pro, alia illum ea vim.
+              </p>
+            </div>
+          </div>
+          <div class="tab">
+            <div class="cards">
+              <p>
+                Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula
+                euripidis, hinc partem ei est
+                Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id,
+                <br>
+                error epicurei mea et. Mea facilisis urbanitas. Vis ei rationibus definiebas, eu qui purto zril laoreet.
+                Ex error omnium interpretaris pro, alia illum ea vim.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="menu-section related">
+    <div class="container-menu">
+      <div class="title-wrap-center">
+        <h2>Related Items</h2>
+      </div>
+      <div class="tabs">
+        <div class="tabs-content">
+          <div class="tab active">
+            <div class="cards foor">
+              <div class="food-card">
+                <a href="drinkFig&Lime.html" class="food-image" target="_blank">
+                  <img src="assets/images/Drink 1.png">
+                </a>
+                <div class="food-info">
+                  <a href="drinkFig&Lime.html" class="food-title-wrap" target="_blank">
+                    <h6>Drink Fig & lime</h6>
+                    <div class="price">$ 4.00 USD</div>
+                  </a>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <form class="default-state">
+                    <input id="number-of-order" type="number" value="1" min="0">
+                    <input id="addItems" type="submit" value="Add To Cart">
+                  </form>
+                </div>
+              </div>
+              <div class="food-card">
+                <a href="drinkLiquor.html" class="food-image" target="_blank">
+                  <img src="assets/images/Drink 2.png">
+                </a>
+                <div class="food-info">
+                  <a href="drinkLiquor.html" class="food-title-wrap" target="_blank">
+                    <h6>Drink Liquor</h6>
+                    <div class="price">$ 7.00 USD</div>
+                  </a>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <form class="default-state">
+                    <input id="number-of-order" type="number" value="1" min="0">
+                    <input id="addItems" type="submit" value="Add To Cart">
+                  </form>
+                </div>
+              </div>
+              <div class="food-card">
+                <a href="drinkLime.html" class="food-image" target="_blank">
+                  <img src="assets/images/Drink 4.png">
+                </a>
+                <div class="food-info">
+                  <a href="drinkLime.html" class="food-title-wrap" target="_blank">
+                    <h6>Drink Lime</h6>
+                    <div class="price">$ 4.00 USD</div>
+                  </a>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <form class="default-state">
+                    <input id="number-of-order" type="number" value="1" min="0">
+                    <input id="addItems" type="submit" value="Add To Cart">
+                  </form>
+                </div>
+              </div>
+              <div class="food-card">
+                <a href="drinkCola.html" class="food-image" target="_blank">
+                  <img src="assets/images/Drink 3.png">
+                </a>
+                <div class="food-info">
+                  <a href="drinkCola.html" class="food-title-wrap" target="_blank">
+                    <h6>Drink Cola</h6>
+                    <div class="price">$ 3.00 USD</div>
+                  </a>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <form class="default-state">
+                    <input id="number-of-order" type="number" value="1" min="0">
+                    <input id="addItems" type="submit" value="Add To Cart">
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div> 
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Start cta section -->
+  <div class="cta-section">
+    <div class="layout-grid">
+      <div class="cta-image">
+      </div>
+      <div class="cta-content">
+        <h1><span>Support</span> good food
+          and local business.</h1>
+        <a href="order.html">Order Now</a>
+      </div>
+    </div>
+  </div>
+  <!-- End cta section -->
+
+  <!-- Start Footer -->
+  <footer>
+    <div class="container-footer">
+      <div class="layout-grid">
+        <div class="footer-column">
+          <img src="assets/images/Logo.svg">
+          <p>Takeaway & Delivery templatefor small - medium businesses. </p>
+        </div>
+        <div class="footer-column">
+          <p class="title">company</p>
+          <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="order.html">order</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="company.html">faq</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <p class="title">template</p>
+          <ul>
+            <li><a href="index.html">Style Guide</a></li>
+            <li><a href="order.html">Changelog</a></li>
+            <li><a href="faq.html">License</a></li>
+            <li><a href="company.html">Webflow University</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <p class="title">flowbase</p>
+          <ul>
+            <li><a href="index.html">more cloneable</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-legal">
+        <div class="source">
+          <p>Built by Jeniah Adam</p>
+        </div>
+        <div class="social-media">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-x-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+  <script src="js/main.js"></script>
+  <script src="js/faq.js"></script>
+  <script src="js/newPage.js"></script>
+  <script src="js/addToCart.js"></script>
+</body>
+
+</html>
